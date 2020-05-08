@@ -2,5 +2,5 @@
 <blockquote>
 <p>React app to create a Todo list built with MaterializeCSS. Uses JSON Placeholder to generate a sample list.</p>
 </blockquote>
-<h3><a href="https://pensive-hugle-59e6d9.netlify.app/">Demo</a></h3>
+<h3><a href="https://starchtect-todo-list.netlify.app/">Demo</a></h3>
 </article>
