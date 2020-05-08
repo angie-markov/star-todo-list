@@ -21,18 +21,23 @@ body {
   min-height: calc(100vh - 280px);
 }
 
-.flex-container {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
+.collection .collection-item {
+  padding-right: 0;
 }
 
-.flex-input.flex-input {
-  flex: 1 1 auto;
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  align-items: space-between;
+  justify-content: flex-start;
+}
+
+.flex-input {
+  flex: 1 2 auto;
 }
 
 .flex-btn {
-  flex: 0 2 auto;
+  flex: 0 1 auto;
 }
 
 input[type="text"]:not(.browser-default):focus:not([readonly]) {
@@ -44,8 +49,4 @@ input[type="text"]:not(.browser-default):focus:not([readonly]) {
 [type="checkbox"]:checked + span:not(.lever)::before {
   border-right: 2px solid #673ab7;
   border-bottom: 2px solid #673ab7;
-}
-
-.btn-floating.btn-small {
-  margin-top: -4px;
 }

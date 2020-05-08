@@ -6,10 +6,10 @@ function Navbar() {
     <Fragment>
       <nav>
         <div className="nav-wrapper indigo lighten-5">
-          <a href="#" className="brand-logo center deep-purple-text">
+          <a href="#!" className="brand-logo center deep-purple-text">
             All Tasks
           </a>
-          <a href="#" data-target="mobile-demo" className="sidenav-trigger">
+          <a href="#!" data-target="mobile-demo" className="sidenav-trigger">
             <i className="material-icons">menu</i>
           </a>
           <ul className="right hide-on-med-and-down">

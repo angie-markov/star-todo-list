@@ -17,7 +17,7 @@ export class AddTodo extends Component {
   render() {
     return (
       <form onSubmit={this.onSubmit}>
-        <div className="row flex-container">
+        <div className="valign-wrapper flex-container">
           <div className="input-field flex-input">
             <input
               type="text"

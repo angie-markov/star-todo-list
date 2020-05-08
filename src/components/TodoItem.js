@@ -16,8 +16,8 @@ export class TodoItem extends Component {
   render() {
     const { id, title, completed } = this.props.todo;
     return (
-      <div className="collection-item">
-        <label>
+      <div className="collection-item valign-wrapper flex-container">
+        <label className="flex-input">
           <input
             type="checkbox"
             defaultChecked={completed}
@@ -26,10 +26,11 @@ export class TodoItem extends Component {
           <span style={this.getStyle()}>{title}</span>
         </label>
         <a
-          className="btn-floating waves-effect waves-light deep-purple btn-small right"
+          href="#!"
+          className="btn-flat flex-btn"
           onClick={this.props.delTodo.bind(this, id)}
         >
-          <i className="material-icons">remove</i>
+          <i className="material-icons">close</i>
         </a>
       </div>
     );

@@ -19,7 +19,6 @@ const Footer = () => {
                 <a
                   className="grey-text text-lighten-3"
                   href="https://github.com/angie-markov"
-                  target="_blank"
                   title="Github"
                 >
                   Github
@@ -35,7 +34,6 @@ const Footer = () => {
           <a
             href="http://starchitect.tech/"
             title="Project by Starchitect"
-            target="_blank"
             className="deep-purple-text text-lighten-2"
           >
             Starchitect
