@@ -5,13 +5,16 @@
 </blockquote>
   
 <h2>Quick Start</h2>
-<div class="highlight highlight-source-shell"><pre><span class="pl-c"><span class="pl-c">#</span> Install dependencies</span>
+<div class="highlight highlight-source-shell">
+<pre><span class="pl-c"><span class="pl-c">#</span> Install dependencies</span>
 npm install
 
 <span class="pl-c"><span class="pl-c">#</span> Serve on localhost:3000</span>
 npm start
 
 <span class="pl-c"><span class="pl-c">#</span> Build for production</span>
-npm run build</pre></div>
+npm run build
+</pre>
+</div>
 <h3><a href="https://starchtect-todo-list.netlify.app/">Demo</a></h3>
 </article>
