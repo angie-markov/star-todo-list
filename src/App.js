@@ -1,7 +1,6 @@
 import React, { Component, Fragment } from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Navbar from "./components/layout/Navbar";
-import Footer from "./components/layout/Footer";
 import Todos from "./components/Todos";
 import AddTodo from "./components/AddTodo";
 import About from "./components/pages/About";
@@ -61,27 +60,28 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
-          <Navbar />
-          <div className="container content">
-            <Route
-              exact
-              path="/"
-              render={(props) => (
-                <Fragment>
-                  <AddTodo addTodo={this.addTodo} />
-                  <div className="collection">
-                    <Todos
-                      todos={this.state.todos}
-                      markComplete={this.markComplete}
-                      delTodo={this.delTodo}
-                    />
-                  </div>
-                </Fragment>
-              )}
-            />
-            <Route path="/about" component={About} />
+          <div className="content">
+            <Navbar />
+            <div className="container">
+              <Route
+                exact
+                path="/"
+                render={(props) => (
+                  <Fragment>
+                    <AddTodo addTodo={this.addTodo} />
+                    <div className="collection">
+                      <Todos
+                        todos={this.state.todos}
+                        markComplete={this.markComplete}
+                        delTodo={this.delTodo}
+                      />
+                    </div>
+                  </Fragment>
+                )}
+              />
+              <Route path="/about" component={About} />
+            </div>
           </div>
-          <Footer />
         </div>
       </Router>
     );
