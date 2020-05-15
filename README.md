@@ -5,9 +5,12 @@
 </blockquote>
   
 <h2>Quick Start</h2>
+
 <div class="highlight highlight-source-shell">
+  
 <pre><span class="pl-c"><span class="pl-c">#</span> Install dependencies</span>
 npm install
+</br />
 
 <span class="pl-c"><span class="pl-c">#</span> Serve on localhost:3000</span>
 npm start
