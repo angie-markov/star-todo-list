@@ -18,5 +18,5 @@ npm start
 npm run build
 </pre>
 </div>
-<h3><a href="https://starchtect-todo-list.netlify.app/">Demo</a></h3>
+<h3><a href="https://starchitect-todo-list.netlify.app/">Demo</a></h3>
 </article>
